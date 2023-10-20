@@ -84,30 +84,40 @@
     padding: 46px 20px 0px;
 }
 
-.message{
-    padding: 10px 40px 40px;
+.messages {
+    background-color: #FAFAFA;
+    height: calc(100vh - 100px - 90px);
+    padding: 46px 40px 0;
+    overflow: scroll;
 }
 
-.message-header{
+.message {
+    margin: 10px 0 0 0;
+}
+
+.upper-message{
     display: flex;
-    justify-content: left;
 }
 
-.message-user{
+.message-user {
+    color: #434a54;
     font-size: 16px;
-    color: #434A54;
-    margin-right: 10px;
 }
 
-.message-date{
-    font-size: 12px;
+.message-date {
     color: #999;
+    font-size: 12px;
+    padding-left: 10px;
 }
 
-.message-text{
+.lower-message {
     margin-top: 10px;
+}
+
+.message-content {
+    color: #434a54;
     font-size: 14px;
-    color: #434A54;
+    margin-bottom: 40px;
 }
 
 .form {
