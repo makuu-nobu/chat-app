@@ -30,7 +30,7 @@
     text-decoration: none;
 }
 
-.chat-create{
+.chat-create a{
     font-size: 10px;
     color: deepskyblue;
     padding: 14px;
