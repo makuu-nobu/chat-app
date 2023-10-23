@@ -85,12 +85,12 @@
     background-color: #fafafa;
     margin-top: 0px;
     padding: 46px 40px 0px;
+    overflow: scroll;
 }
 
 .messages {
     background-color: #FAFAFA;
     height: calc(100vh - 100px - 90px);
-    
     overflow: scroll;
 }
 
